@@ -1,0 +1,17 @@
+version: "3.2"
+
+services:
+  deployapp:
+    container_name: my_deploy_contaner
+    build:
+      context: ./dockerfiles
+      dockerfile: Dockerfile-deploy
+    volumes:
+      - type: volume
+        source: wardata
+        target: /tmp
+#        volume:
+#          nocopy: true
+
+volumes:
+  wardata:
