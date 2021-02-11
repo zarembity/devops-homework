@@ -1,0 +1,4 @@
+dream: В фирме «Мечта» было у них 6 отделов.
+  -firm1: 1-ый отдел
+    employes: {name: Оля, count: 4}, {name: Дмитрий, count: 3}, {name: Иван, count: 2}
+  -firm2: 2-ой отдел
